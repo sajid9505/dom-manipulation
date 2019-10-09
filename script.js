@@ -22,4 +22,14 @@ function changebg1(event){
 //     document.body.style.background = "green" 
 // }
 
+//task2C
+
+function redirect(event){
+    window.location.href = "https://www.google.com"
+}
+
+function redirect2(event){
+    window.open("https://www.google.com", "blank") 
+}
+
 /* Task 4 using jQuery */
