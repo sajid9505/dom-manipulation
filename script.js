@@ -33,3 +33,27 @@ function redirect2(event){
 }
 
 /* Task 4 using jQuery */
+//4a
+
+$('#addText').click(function(event){
+    let para = $('<p>').text("Hello World")
+    $('#task4a').append(para)
+
+})
+
+// 4b 
+
+$(".bgBtn").click(function(event){
+    $('body').css('background-color', event.target.innerText.toLowerCase())
+
+})
+
+//4c
+
+$('#Addition').click(function(event){
+    let first = $('#text1').val() 
+    let second = $('#text2').val()
+    let Sum = Number(first) + Number(second)
+    $('#answer').append(Sum) 
+
+})
